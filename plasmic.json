@@ -1,0 +1,143 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "68wGqrWvUbUk9uG76N3xHk",
+      "projectApiToken": "f5LJGlFy47WE9fHXThsihuERF2KkGkNXVcJ4CG3vDtnpaeVYwKYyH98IJf8LFQ6diXDrmmG5Xnym6M50Yw",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "mBD5GJn-hYl-",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "68wGqrWvUbUk9uG76N3xHk",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "VLILcNzR_Q",
+          "name": "YourWallet",
+          "type": "managed",
+          "projectId": "68wGqrWvUbUk9uG76N3xHk",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicYourWallet.jsx",
+          "importSpec": {
+            "modulePath": "YourWallet.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicYourWallet.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UCG438gq_ly",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "68wGqrWvUbUk9uG76N3xHk",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "UzcYFC-NJii",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "68wGqrWvUbUk9uG76N3xHk",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        }
+      ],
+      "icons": [
+        {
+          "id": "ppcK-LiUA7",
+          "name": "WizardSvgrepoComsvg2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__WizardSvgrepoComsvg2.jsx"
+        },
+        {
+          "id": "gYo0rjvqId9",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "XoAtNs3eY9L",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "M1v116-IU5V",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Searchsvg.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "hLPlPGDim",
+          "name": "wizard-svgrepo-com.svg",
+          "filePath": "plasmic/blank_project/images/wizardSvgrepoComsvg.svg"
+        },
+        {
+          "id": "ex_skfXvU",
+          "name": "Screen Shot 2022-06-19 at 7.01.12 PM.png",
+          "filePath": "plasmic/blank_project/images/screenShot20220619At70112PMpng.png"
+        },
+        {
+          "id": "cyEWdgYSm",
+          "name": "Screen Shot 2022-06-19 at 7.02.50 PM.png",
+          "filePath": "plasmic/blank_project/images/screenShot20220619At70250PMpng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "vuY9frfZKLWci",
+        "name": "Screen",
+        "projectId": "68wGqrWvUbUk9uG76N3xHk",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.182",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.182/dist/plasmic.schema.json"
+}
