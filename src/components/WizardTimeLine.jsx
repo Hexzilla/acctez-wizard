@@ -28,7 +28,7 @@ const WizardTimeLine = () => {
         </Text>
       </Group>
       <Title order={5} style={{ padding: 10 }}>
-        Follow these steps
+        Timeline component
       </Title>
       <Timeline active={lessonState.timeline}>
         {Recipes.map((item, index) => (
