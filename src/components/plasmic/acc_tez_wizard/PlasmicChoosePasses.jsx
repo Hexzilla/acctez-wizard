@@ -91,7 +91,7 @@ function PlasmicChoosePasses__RenderFunc(props) {
                   </div>
 
                   <div
-                    className={classNames(projectcss.all, sty.freeBox___5Ldzc)}
+                    className={classNames(projectcss.all, sty.freeBox___14SYr)}
                   >
                     <Checkbox
                       className={classNames(
@@ -114,60 +114,6 @@ function PlasmicChoosePasses__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__lIYzR
-                      )}
-                    >
-                      {"Price:"}
-                    </div>
-
-                    <TextInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.textInput__fcJse
-                      )}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__q7U8I
-                      )}
-                    >
-                      {"Tezos"}
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__zzjlJ
-                      )}
-                    >
-                      {"or"}
-                    </div>
-
-                    <TextInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.textInput___3AFcp
-                      )}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__guq11
-                      )}
-                    >
-                      {"Dollars"}
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
                         sty.text__uUYw
                       )}
                     >
@@ -175,25 +121,86 @@ function PlasmicChoosePasses__RenderFunc(props) {
                         "Day Pass Allows User Access for 24 hours from time of purchase."
                       }
                     </div>
-                  </div>
 
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__gfUiO)}
-                  >
-                    <Checkbox
+                    <div
                       className={classNames(
-                        "__wab_instance",
-                        sty.checkbox__ypLy
+                        projectcss.all,
+                        sty.freeBox___5Ldzc
                       )}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__elT4R
+                          sty.text__lIYzR
                         )}
                       >
-                        {"Weekly  Pass"}
+                        {"Price:"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__fcJse
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__q7U8I
+                        )}
+                      >
+                        {"Tezos"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__zzjlJ
+                        )}
+                      >
+                        {"or"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput___3AFcp
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__guq11
+                        )}
+                      >
+                        {"Dollars"}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__irkOz)}
+                  >
+                    <Checkbox
+                      className={classNames(
+                        "__wab_instance",
+                        sty.checkbox__rVvJw
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__yalWa
+                        )}
+                      >
+                        {"Weekly Pass"}
                       </div>
                     </Checkbox>
 
@@ -201,83 +208,87 @@ function PlasmicChoosePasses__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__bOWot
-                      )}
-                    >
-                      {"Price:"}
-                    </div>
-
-                    <TextInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.textInput__i9JYj
-                      )}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__hvDy
-                      )}
-                    >
-                      {"Tezos"}
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__sfZrs
-                      )}
-                    >
-                      {"or"}
-                    </div>
-
-                    <TextInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.textInput__k6VqD
-                      )}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__ukg2K
-                      )}
-                    >
-                      {"Dollars"}
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___0VX
+                        sty.text__jEsm1
                       )}
                     >
                       {
                         "Weekly  Pass Allows User Access for 7 Days from time of purchase."
                       }
                     </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__oj5Ef)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__dafzk
+                        )}
+                      >
+                        {"Price:"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__sZzvV
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ew9Uq
+                        )}
+                      >
+                        {"Tezos"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__sY0Vf
+                        )}
+                      >
+                        {"or"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__qeml6
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__izbzv
+                        )}
+                      >
+                        {"Dollars"}
+                      </div>
+                    </div>
                   </div>
 
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__gbSc)}
+                    className={classNames(projectcss.all, sty.freeBox__p26XT)}
                   >
                     <Checkbox
                       className={classNames(
                         "__wab_instance",
-                        sty.checkbox__ewUk
+                        sty.checkbox__smBtB
                       )}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__ljT0L
+                          sty.text__j39Hb
                         )}
                       >
                         {"Yearly Pass"}
@@ -288,83 +299,87 @@ function PlasmicChoosePasses__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__rPh7Q
-                      )}
-                    >
-                      {"Price:"}
-                    </div>
-
-                    <TextInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.textInput__yaGdR
-                      )}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__pe1Xl
-                      )}
-                    >
-                      {"Tezos"}
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___0JpD
-                      )}
-                    >
-                      {"or"}
-                    </div>
-
-                    <TextInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.textInput___25YhH
-                      )}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__y8CaY
-                      )}
-                    >
-                      {"Dollars"}
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__lic6Z
+                        sty.text__oew3
                       )}
                     >
                       {
-                        "Weekly  Pass Allows User Access for 365 Days from time of purchase."
+                        "Yearly Pass Allows User Access for 365 Days from time of purchase."
                       }
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__gq7H)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__fhDpW
+                        )}
+                      >
+                        {"Price:"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__qctSh
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__pavEh
+                        )}
+                      >
+                        {"Tezos"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__n7Pta
+                        )}
+                      >
+                        {"or"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__nqayn
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__yD8S
+                        )}
+                      >
+                        {"Dollars"}
+                      </div>
                     </div>
                   </div>
 
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__mZxa)}
+                    className={classNames(projectcss.all, sty.freeBox__rNxAk)}
                   >
                     <Checkbox
                       className={classNames(
                         "__wab_instance",
-                        sty.checkbox__r8Gwr
+                        sty.checkbox__hfwL5
                       )}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___4HmTn
+                          sty.text__taBuF
                         )}
                       >
                         {"Special Event Pass"}
@@ -375,68 +390,340 @@ function PlasmicChoosePasses__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text___1FnOq
-                      )}
-                    >
-                      {"Price:"}
-                    </div>
-
-                    <TextInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.textInput__dmvNl
-                      )}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__tPf1Y
-                      )}
-                    >
-                      {"Tezos"}
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__a99W
-                      )}
-                    >
-                      {"or"}
-                    </div>
-
-                    <TextInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.textInput__mSayv
-                      )}
-                    />
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__nBeXi
-                      )}
-                    >
-                      {"Dollars"}
-                    </div>
-
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__ia94W
+                        sty.text__bfQy0
                       )}
                     >
                       {
                         "Special Event Pass Allows User Access to a single event."
                       }
                     </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___2Mywd
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___6RYW
+                        )}
+                      >
+                        {"Price:"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput___3Kzb9
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__aYjxs
+                        )}
+                      >
+                        {"Tezos"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__dbBa3
+                        )}
+                      >
+                        {"or"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__fMhVz
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ze3Ja
+                        )}
+                      >
+                        {"Dollars"}
+                      </div>
+                    </div>
                   </div>
+
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__gfUiO)}
+                    >
+                      <Checkbox
+                        className={classNames(
+                          "__wab_instance",
+                          sty.checkbox__ypLy
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__elT4R
+                          )}
+                        >
+                          {"Weekly  Pass"}
+                        </div>
+                      </Checkbox>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__bOWot
+                        )}
+                      >
+                        {"Price:"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__i9JYj
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__hvDy
+                        )}
+                      >
+                        {"Tezos"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__sfZrs
+                        )}
+                      >
+                        {"or"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__k6VqD
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ukg2K
+                        )}
+                      >
+                        {"Dollars"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___0VX
+                        )}
+                      >
+                        {
+                          "Weekly  Pass Allows User Access for 7 Days from time of purchase."
+                        }
+                      </div>
+                    </div>
+                  ) : null}
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__gbSc)}
+                    >
+                      <Checkbox
+                        className={classNames(
+                          "__wab_instance",
+                          sty.checkbox__ewUk
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__ljT0L
+                          )}
+                        >
+                          {"Yearly Pass"}
+                        </div>
+                      </Checkbox>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__rPh7Q
+                        )}
+                      >
+                        {"Price:"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__yaGdR
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__pe1Xl
+                        )}
+                      >
+                        {"Tezos"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___0JpD
+                        )}
+                      >
+                        {"or"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput___25YhH
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__y8CaY
+                        )}
+                      >
+                        {"Dollars"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__lic6Z
+                        )}
+                      >
+                        {
+                          "Weekly  Pass Allows User Access for 365 Days from time of purchase."
+                        }
+                      </div>
+                    </div>
+                  ) : null}
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__mZxa)}
+                    >
+                      <Checkbox
+                        className={classNames(
+                          "__wab_instance",
+                          sty.checkbox__r8Gwr
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___4HmTn
+                          )}
+                        >
+                          {"Special Event Pass"}
+                        </div>
+                      </Checkbox>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___1FnOq
+                        )}
+                      >
+                        {"Price:"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__dmvNl
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__tPf1Y
+                        )}
+                      >
+                        {"Tezos"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__a99W
+                        )}
+                      >
+                        {"or"}
+                      </div>
+
+                      <TextInput
+                        className={classNames(
+                          "__wab_instance",
+                          sty.textInput__mSayv
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__nBeXi
+                        )}
+                      >
+                        {"Dollars"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ia94W
+                        )}
+                      >
+                        {
+                          "Special Event Pass Allows User Access to a single event."
+                        }
+                      </div>
+                    </div>
+                  ) : null}
                 </div>
 
                 <p.Stack

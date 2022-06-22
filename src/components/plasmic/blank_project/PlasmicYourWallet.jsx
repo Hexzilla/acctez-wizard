@@ -130,9 +130,11 @@ function PlasmicYourWallet__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(projectcss.all, sty.freeBox__khRc)}
                 >
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__qjhTq)}
-                  />
+                  {true ? (
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__qjhTq)}
+                    />
+                  ) : null}
 
                   <Button
                     data-plasmic-name={"backButton"}

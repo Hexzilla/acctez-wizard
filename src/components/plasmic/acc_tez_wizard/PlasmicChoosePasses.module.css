@@ -124,6 +124,39 @@
   letter-spacing: 1px;
   font-weight: 700;
   padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 23px;
+  min-width: 0;
+}
+.freeBox___14SYr {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  padding: 8px;
+}
+.checkbox___0SfM:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.text__zbwQs {
+  white-space: pre-wrap;
+}
+.text__uUYw {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: #afafaf;
+  padding-left: 28px;
+  margin-top: 12px;
   min-width: 0;
 }
 .freeBox___5Ldzc {
@@ -138,15 +171,6 @@
   min-width: 0;
   padding: 8px;
 }
-.checkbox___0SfM:global(.__wab_instance) {
-  max-width: 100%;
-  position: relative;
-  width: 80px;
-  flex-shrink: 0;
-}
-.text__zbwQs {
-  white-space: pre-wrap;
-}
 .text__lIYzR {
   position: relative;
   width: auto;
@@ -157,7 +181,7 @@
   margin-right: 0px;
   margin-left: 0px;
   padding-right: 11px;
-  padding-left: 27px;
+  padding-left: 20px;
 }
 .textInput__fcJse:global(.__wab_instance) {
   max-width: 100%;
@@ -234,15 +258,38 @@
   padding-right: 11px;
   padding-left: 0px;
 }
-.text__uUYw {
+.freeBox__irkOz {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  padding: 8px;
+}
+.checkbox__rVvJw:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.text__yalWa {
+  white-space: pre-wrap;
+}
+.text__jEsm1 {
   position: relative;
   width: 100%;
   height: auto;
   max-width: 800px;
   color: #afafaf;
+  padding-left: 28px;
+  margin-top: 12px;
   min-width: 0;
 }
-.freeBox__gfUiO {
+.freeBox__oj5Ef {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -252,6 +299,365 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
+  padding: 8px;
+}
+.text__dafzk {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  padding-left: 20px;
+}
+.textInput__sZzvV:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 73px;
+  height: auto;
+  align-self: center;
+  flex-shrink: 0;
+}
+.svg__obImK {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___8XvBc {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__ew9Uq {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 9px;
+  padding-left: 0px;
+}
+.text__sY0Vf {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  font-weight: 700;
+}
+.textInput__qeml6:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 73px;
+  align-self: center;
+  flex-shrink: 0;
+}
+.svg__ojgIa {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__areOb {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__izbzv {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  padding-left: 0px;
+}
+.freeBox__p26XT {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  padding: 8px;
+}
+.checkbox__smBtB:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.text__j39Hb {
+  white-space: pre-wrap;
+}
+.text__oew3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: #afafaf;
+  padding-left: 28px;
+  margin-top: 12px;
+  min-width: 0;
+}
+.freeBox__gq7H {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.text__fhDpW {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  padding-left: 20px;
+}
+.textInput__qctSh:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 73px;
+  height: auto;
+  align-self: center;
+  flex-shrink: 0;
+}
+.svg__xkJkN {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__vknnn {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__pavEh {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 9px;
+  padding-left: 0px;
+}
+.text__n7Pta {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  font-weight: 700;
+}
+.textInput__nqayn:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 73px;
+  align-self: center;
+  flex-shrink: 0;
+}
+.svg__sQLr {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__fWpEs {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__yD8S {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  padding-left: 0px;
+}
+.freeBox__rNxAk {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  padding: 8px;
+}
+.checkbox__hfwL5:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.text__taBuF {
+  white-space: pre-wrap;
+}
+.text__bfQy0 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: #afafaf;
+  padding-left: 28px;
+  margin-top: 12px;
+  min-width: 0;
+}
+.freeBox___2Mywd {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.text___6RYW {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  padding-left: 20px;
+}
+.textInput___3Kzb9:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 73px;
+  height: auto;
+  align-self: center;
+  flex-shrink: 0;
+}
+.svg__uGrMg {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__qlB7 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__aYjxs {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 9px;
+  padding-left: 0px;
+}
+.text__dbBa3 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  font-weight: 700;
+}
+.textInput__fMhVz:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 73px;
+  align-self: center;
+  flex-shrink: 0;
+}
+.svg__zyp0G {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__tw4VZ {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__ze3Ja {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  align-self: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  padding-left: 0px;
+}
+.freeBox__gfUiO {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  display: none;
   padding: 8px;
 }
 .checkbox__ypLy:global(.__wab_instance) {
@@ -360,7 +766,6 @@
   min-width: 0;
 }
 .freeBox__gbSc {
-  display: flex;
   position: relative;
   flex-direction: row;
   align-items: stretch;
@@ -369,6 +774,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
+  display: none;
   padding: 8px;
 }
 .checkbox__ewUk:global(.__wab_instance) {
@@ -477,7 +883,6 @@
   min-width: 0;
 }
 .freeBox__mZxa {
-  display: flex;
   position: relative;
   flex-direction: row;
   align-items: stretch;
@@ -486,6 +891,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
+  display: none;
   padding: 8px;
 }
 .checkbox__r8Gwr:global(.__wab_instance) {
@@ -599,14 +1005,15 @@
   position: relative;
   width: 100%;
   height: auto;
-  max-width: 100%;
+  max-width: 800px;
+  margin-top: 32px;
   min-width: 0;
   padding: 8px;
 }
 .freeBox__xGnNx > :global(.__wab_flex-container) {
   flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 25px);
   width: calc(100% + 25px);

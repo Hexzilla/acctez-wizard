@@ -67,7 +67,7 @@
   min-width: 0;
   padding: 8px;
 }
-.freeBox {
+.freeBox__m8OFk {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -100,6 +100,19 @@
   font-size: 20px;
   letter-spacing: 1px;
   min-width: 0;
+}
+.freeBox__xKeRw {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin-top: 32px;
+  min-width: 0;
+  padding: 8px;
 }
 .nextButton:global(.__wab_instance) {
   max-width: 100%;

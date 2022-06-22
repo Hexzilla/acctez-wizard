@@ -57,11 +57,7 @@ function PlasmicHomepage__RenderFunc(props) {
             className={classNames(projectcss.all, sty.columns)}
           >
             <div className={classNames(projectcss.all, sty.column__qIqrg)}>
-              <div
-                data-plasmic-name={"freeBox"}
-                data-plasmic-override={overrides.freeBox}
-                className={classNames(projectcss.all, sty.freeBox)}
-              >
+              <div className={classNames(projectcss.all, sty.freeBox__m8OFk)}>
                 <h1
                   data-plasmic-name={"h1"}
                   data-plasmic-override={overrides.h1}
@@ -89,13 +85,15 @@ function PlasmicHomepage__RenderFunc(props) {
                   }
                 </div>
 
-                <Button
-                  data-plasmic-name={"nextButton"}
-                  data-plasmic-override={overrides.nextButton}
-                  className={classNames("__wab_instance", sty.nextButton)}
-                >
-                  {"Next"}
-                </Button>
+                <div className={classNames(projectcss.all, sty.freeBox__xKeRw)}>
+                  <Button
+                    data-plasmic-name={"nextButton"}
+                    data-plasmic-override={overrides.nextButton}
+                    className={classNames("__wab_instance", sty.nextButton)}
+                  >
+                    {"Next"}
+                  </Button>
+                </div>
               </div>
             </div>
 
@@ -118,9 +116,8 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "columns", "freeBox", "h1", "text", "nextButton", "timeline"],
-  columns: ["columns", "freeBox", "h1", "text", "nextButton", "timeline"],
-  freeBox: ["freeBox", "h1", "text", "nextButton"],
+  root: ["root", "columns", "h1", "text", "nextButton", "timeline"],
+  columns: ["columns", "h1", "text", "nextButton", "timeline"],
   h1: ["h1"],
   text: ["text"],
   nextButton: ["nextButton"],
@@ -157,7 +154,6 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     columns: makeNodeComponent("columns"),
-    freeBox: makeNodeComponent("freeBox"),
     h1: makeNodeComponent("h1"),
     text: makeNodeComponent("text"),
     nextButton: makeNodeComponent("nextButton"),

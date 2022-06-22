@@ -135,9 +135,9 @@ function PlasmicSetUpStripe__RenderFunc(props) {
                   className={classNames(projectcss.all, sty.freeBox__lczIr)}
                 >
                   <Button
-                    data-plasmic-name={"button"}
-                    data-plasmic-override={overrides.button}
-                    className={classNames("__wab_instance", sty.button)}
+                    data-plasmic-name={"skipButton"}
+                    data-plasmic-override={overrides.skipButton}
+                    className={classNames("__wab_instance", sty.skipButton)}
                     color={"link"}
                   >
                     {"Skip"}
@@ -229,7 +229,7 @@ const PlasmicDescendants = {
     "link",
     "textInput",
     "textbox",
-    "button",
+    "skipButton",
     "backButton",
     "nextButton",
     "svg",
@@ -243,7 +243,7 @@ const PlasmicDescendants = {
     "link",
     "textInput",
     "textbox",
-    "button",
+    "skipButton",
     "backButton",
     "nextButton",
     "svg",
@@ -254,7 +254,7 @@ const PlasmicDescendants = {
   h1: ["h1"],
   link: ["link"],
   textInput: ["textInput", "textbox"],
-  button: ["button"],
+  skipButton: ["skipButton"],
   backButton: ["backButton"],
   nextButton: ["nextButton"],
   svg: ["svg"],
@@ -295,7 +295,7 @@ export const PlasmicSetUpStripe = Object.assign(
     h1: makeNodeComponent("h1"),
     link: makeNodeComponent("link"),
     textInput: makeNodeComponent("textInput"),
-    button: makeNodeComponent("button"),
+    skipButton: makeNodeComponent("skipButton"),
     backButton: makeNodeComponent("backButton"),
     nextButton: makeNodeComponent("nextButton"),
     svg: makeNodeComponent("svg"),

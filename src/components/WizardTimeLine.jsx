@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { Timeline, Text, Title, Group, ScrollArea } from '@mantine/core';
 import { useRef } from 'react';
-import Recipes from './timeline.json';
+import Recipes from './lessons.json';
 
 const WizardTimeLine = () => {
   const lessonState = useSelector((state) => state.LessonState);
