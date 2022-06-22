@@ -1,6 +1,6 @@
 [
   {
-      "text": "New branch",
+      "text": "Set up your wallet",
       "hint": "You've created new branch fix-notifications from master",
       "event": {
           "type": "BLOCK_CREATE"
@@ -10,7 +10,7 @@
       } 
   },
   {
-      "text": "Commits",
+      "text": "Set up your Stripe",
       "hint": "You've pushed 23 commits to fix-notifications branch",
       "event": {
           "type": "BLOCK_CHANGE",
@@ -21,7 +21,7 @@
       } 
   },
   {
-      "text": "Pull request",
+      "text": "Choose Passes",
       "hint": "You've submitted a pull request in Fix incorrect notification message (#187)",
       "event": {
           "type": "BLOCK_CREATE"

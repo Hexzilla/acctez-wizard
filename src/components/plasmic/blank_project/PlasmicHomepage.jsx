@@ -17,11 +17,10 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import Button from "../../Button"; // plasmic-import: UCG438gq_ly/component
+import Timeline from "../../Timeline"; // plasmic-import: 0RHyvgnmPT/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: 68wGqrWvUbUk9uG76N3xHk/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: mBD5GJn-hYl-/css
-import WizardSvgrepoComsvg2Icon from "./icons/PlasmicIcon__WizardSvgrepoComsvg2"; // plasmic-import: ppcK-LiUA7/icon
-import screenShot20220619At70250PMpngCyEWdgYSm from "./images/screenShot20220619At70250PMpng.png"; // plasmic-import: cyEWdgYSm/picture
 
 export const PlasmicHomepage__VariantProps = new Array();
 
@@ -58,7 +57,11 @@ function PlasmicHomepage__RenderFunc(props) {
             className={classNames(projectcss.all, sty.columns)}
           >
             <div className={classNames(projectcss.all, sty.column__qIqrg)}>
-              <div className={classNames(projectcss.all, sty.freeBox__m8OFk)}>
+              <div
+                data-plasmic-name={"freeBox"}
+                data-plasmic-override={overrides.freeBox}
+                className={classNames(projectcss.all, sty.freeBox)}
+              >
                 <h1
                   data-plasmic-name={"h1"}
                   data-plasmic-override={overrides.h1}
@@ -73,10 +76,12 @@ function PlasmicHomepage__RenderFunc(props) {
                 </h1>
 
                 <div
+                  data-plasmic-name={"text"}
+                  data-plasmic-override={overrides.text}
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__yVjlB
+                    sty.text
                   )}
                 >
                   {
@@ -85,9 +90,9 @@ function PlasmicHomepage__RenderFunc(props) {
                 </div>
 
                 <Button
-                  data-plasmic-name={"button"}
-                  data-plasmic-override={overrides.button}
-                  className={classNames("__wab_instance", sty.button)}
+                  data-plasmic-name={"nextButton"}
+                  data-plasmic-override={overrides.nextButton}
+                  className={classNames("__wab_instance", sty.nextButton)}
                 >
                   {"Next"}
                 </Button>
@@ -95,57 +100,15 @@ function PlasmicHomepage__RenderFunc(props) {
             </div>
 
             <div className={classNames(projectcss.all, sty.column__o1Xbh)}>
-              <div className={classNames(projectcss.all, sty.freeBox__r4WLo)}>
-                <WizardSvgrepoComsvg2Icon
-                  data-plasmic-name={"svg"}
-                  data-plasmic-override={overrides.svg}
-                  className={classNames(projectcss.all, sty.svg)}
-                  role={"img"}
-                />
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__ggGs3
-                  )}
-                >
-                  {"AccTez Wizard"}
-                </div>
-
-                {true ? (
-                  <p.PlasmicImg
-                    data-plasmic-name={"img"}
-                    data-plasmic-override={overrides.img}
-                    alt={""}
-                    className={classNames(sty.img)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: screenShot20220619At70250PMpngCyEWdgYSm,
-                      fullWidth: 627,
-                      fullHeight: 419,
-                      aspectRatio: undefined
-                    }}
-                  />
-                ) : null}
-
-                <div
-                  data-plasmic-name={"timeline"}
-                  data-plasmic-override={overrides.timeline}
-                  className={classNames(projectcss.all, sty.timeline)}
-                >
-                  {p.renderPlasmicSlot({
-                    defaultContents: null,
-                    value: args.timeline
-                  })}
-                </div>
-              </div>
+              <Timeline
+                data-plasmic-name={"timeline"}
+                data-plasmic-override={overrides.timeline}
+                className={classNames("__wab_instance", sty.timeline)}
+                timeline={p.renderPlasmicSlot({
+                  defaultContents: null,
+                  value: args.timeline
+                })}
+              />
             </div>
           </div>
         </p.Stack>
@@ -155,12 +118,12 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "columns", "h1", "button", "svg", "img", "timeline"],
-  columns: ["columns", "h1", "button", "svg", "img", "timeline"],
+  root: ["root", "columns", "freeBox", "h1", "text", "nextButton", "timeline"],
+  columns: ["columns", "freeBox", "h1", "text", "nextButton", "timeline"],
+  freeBox: ["freeBox", "h1", "text", "nextButton"],
   h1: ["h1"],
-  button: ["button"],
-  svg: ["svg"],
-  img: ["img"],
+  text: ["text"],
+  nextButton: ["nextButton"],
   timeline: ["timeline"]
 };
 
@@ -194,10 +157,10 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     columns: makeNodeComponent("columns"),
+    freeBox: makeNodeComponent("freeBox"),
     h1: makeNodeComponent("h1"),
-    button: makeNodeComponent("button"),
-    svg: makeNodeComponent("svg"),
-    img: makeNodeComponent("img"),
+    text: makeNodeComponent("text"),
+    nextButton: makeNodeComponent("nextButton"),
     timeline: makeNodeComponent("timeline"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

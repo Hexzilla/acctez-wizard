@@ -19,6 +19,7 @@ import {
 import Checkbox from "../../Checkbox"; // plasmic-import: NK-xeF1iGEb/component
 import TextInput from "../../TextInput"; // plasmic-import: UzcYFC-NJii/component
 import Button from "../../Button"; // plasmic-import: UCG438gq_ly/component
+import Timeline from "../../Timeline"; // plasmic-import: 0RHyvgnmPT/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: 68wGqrWvUbUk9uG76N3xHk/projectcss
 import sty from "./PlasmicChoosePasses.module.css"; // plasmic-import: t5yBiOJTZxA/css
@@ -54,7 +55,9 @@ function PlasmicChoosePasses__RenderFunc(props) {
             sty.root
           )}
         >
-          <div className={classNames(projectcss.all, sty.freeBox__fJp20)} />
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox__fJp20)} />
+          ) : null}
 
           <div
             data-plasmic-name={"columns"}
@@ -446,13 +449,17 @@ function PlasmicChoosePasses__RenderFunc(props) {
                   />
 
                   <Button
-                    className={classNames("__wab_instance", sty.button__oBmqq)}
+                    data-plasmic-name={"backButton"}
+                    data-plasmic-override={overrides.backButton}
+                    className={classNames("__wab_instance", sty.backButton)}
                   >
                     {"Back"}
                   </Button>
 
                   <Button
-                    className={classNames("__wab_instance", sty.button__tbhCj)}
+                    data-plasmic-name={"nextButton"}
+                    data-plasmic-override={overrides.nextButton}
+                    className={classNames("__wab_instance", sty.nextButton)}
                   >
                     {"Next"}
                   </Button>
@@ -461,44 +468,52 @@ function PlasmicChoosePasses__RenderFunc(props) {
             </div>
 
             <div className={classNames(projectcss.all, sty.column__uUAkl)}>
-              <div className={classNames(projectcss.all, sty.freeBox__fBvVl)}>
-                <WizardSvgrepoComsvg2Icon
-                  data-plasmic-name={"svg"}
-                  data-plasmic-override={overrides.svg}
-                  className={classNames(projectcss.all, sty.svg)}
-                  role={"img"}
-                />
+              {true ? (
+                <div className={classNames(projectcss.all, sty.freeBox__fBvVl)}>
+                  <WizardSvgrepoComsvg2Icon
+                    data-plasmic-name={"svg"}
+                    data-plasmic-override={overrides.svg}
+                    className={classNames(projectcss.all, sty.svg)}
+                    role={"img"}
+                  />
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__ceZ4H
-                  )}
-                >
-                  {"AccTez Wizard"}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ceZ4H
+                    )}
+                  >
+                    {"AccTez Wizard"}
+                  </div>
+
+                  <p.PlasmicImg
+                    data-plasmic-name={"img"}
+                    data-plasmic-override={overrides.img}
+                    alt={""}
+                    className={classNames(sty.img)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: screenShot20220619At70250PMpngCyEWdgYSm,
+                      fullWidth: 627,
+                      fullHeight: 419,
+                      aspectRatio: undefined
+                    }}
+                  />
                 </div>
+              ) : null}
 
-                <p.PlasmicImg
-                  data-plasmic-name={"img"}
-                  data-plasmic-override={overrides.img}
-                  alt={""}
-                  className={classNames(sty.img)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={"lazy"}
-                  src={{
-                    src: screenShot20220619At70250PMpngCyEWdgYSm,
-                    fullWidth: 627,
-                    fullHeight: 419,
-                    aspectRatio: undefined
-                  }}
-                />
-              </div>
+              <Timeline
+                data-plasmic-name={"timeline"}
+                data-plasmic-override={overrides.timeline}
+                className={classNames("__wab_instance", sty.timeline)}
+              />
             </div>
           </div>
         </p.Stack>
@@ -508,11 +523,33 @@ function PlasmicChoosePasses__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "columns", "h1", "svg", "img"],
-  columns: ["columns", "h1", "svg", "img"],
+  root: [
+    "root",
+    "columns",
+    "h1",
+    "backButton",
+    "nextButton",
+    "svg",
+    "img",
+    "timeline"
+  ],
+
+  columns: [
+    "columns",
+    "h1",
+    "backButton",
+    "nextButton",
+    "svg",
+    "img",
+    "timeline"
+  ],
+
   h1: ["h1"],
+  backButton: ["backButton"],
+  nextButton: ["nextButton"],
   svg: ["svg"],
-  img: ["img"]
+  img: ["img"],
+  timeline: ["timeline"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -546,8 +583,11 @@ export const PlasmicChoosePasses = Object.assign(
     // Helper components rendering sub-elements
     columns: makeNodeComponent("columns"),
     h1: makeNodeComponent("h1"),
+    backButton: makeNodeComponent("backButton"),
+    nextButton: makeNodeComponent("nextButton"),
     svg: makeNodeComponent("svg"),
     img: makeNodeComponent("img"),
+    timeline: makeNodeComponent("timeline"),
     // Metadata about props expected for PlasmicChoosePasses
     internalVariantProps: PlasmicChoosePasses__VariantProps,
     internalArgProps: PlasmicChoosePasses__ArgProps

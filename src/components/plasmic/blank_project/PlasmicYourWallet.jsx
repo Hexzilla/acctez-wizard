@@ -18,6 +18,7 @@ import {
 } from "@plasmicapp/react-web";
 import TextInput from "../../TextInput"; // plasmic-import: UzcYFC-NJii/component
 import Button from "../../Button"; // plasmic-import: UCG438gq_ly/component
+import Timeline from "../../Timeline"; // plasmic-import: 0RHyvgnmPT/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: 68wGqrWvUbUk9uG76N3xHk/projectcss
 import sty from "./PlasmicYourWallet.module.css"; // plasmic-import: VLILcNzR_Q/css
@@ -53,8 +54,6 @@ function PlasmicYourWallet__RenderFunc(props) {
             sty.root
           )}
         >
-          <div className={classNames(projectcss.all, sty.freeBox___3Hk5Y)} />
-
           <div
             data-plasmic-name={"columns"}
             data-plasmic-override={overrides.columns}
@@ -136,13 +135,17 @@ function PlasmicYourWallet__RenderFunc(props) {
                   />
 
                   <Button
-                    className={classNames("__wab_instance", sty.button__zaPlg)}
+                    data-plasmic-name={"backButton"}
+                    data-plasmic-override={overrides.backButton}
+                    className={classNames("__wab_instance", sty.backButton)}
                   >
                     {"Back"}
                   </Button>
 
                   <Button
-                    className={classNames("__wab_instance", sty.button__hp3Mk)}
+                    data-plasmic-name={"nextButton"}
+                    data-plasmic-override={overrides.nextButton}
+                    className={classNames("__wab_instance", sty.nextButton)}
                   >
                     {"Next"}
                   </Button>
@@ -151,44 +154,52 @@ function PlasmicYourWallet__RenderFunc(props) {
             </div>
 
             <div className={classNames(projectcss.all, sty.column__fRpF)}>
-              <div className={classNames(projectcss.all, sty.freeBox__mVS)}>
-                <WizardSvgrepoComsvg2Icon
-                  data-plasmic-name={"svg"}
-                  data-plasmic-override={overrides.svg}
-                  className={classNames(projectcss.all, sty.svg)}
-                  role={"img"}
-                />
+              {true ? (
+                <div className={classNames(projectcss.all, sty.freeBox__mVS)}>
+                  <WizardSvgrepoComsvg2Icon
+                    data-plasmic-name={"svg"}
+                    data-plasmic-override={overrides.svg}
+                    className={classNames(projectcss.all, sty.svg)}
+                    role={"img"}
+                  />
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__heiKw
-                  )}
-                >
-                  {"AccTez Wizard"}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__heiKw
+                    )}
+                  >
+                    {"AccTez Wizard"}
+                  </div>
+
+                  <p.PlasmicImg
+                    data-plasmic-name={"img"}
+                    data-plasmic-override={overrides.img}
+                    alt={""}
+                    className={classNames(sty.img)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: screenShot20220619At70250PMpngCyEWdgYSm,
+                      fullWidth: 627,
+                      fullHeight: 419,
+                      aspectRatio: undefined
+                    }}
+                  />
                 </div>
+              ) : null}
 
-                <p.PlasmicImg
-                  data-plasmic-name={"img"}
-                  data-plasmic-override={overrides.img}
-                  alt={""}
-                  className={classNames(sty.img)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={"lazy"}
-                  src={{
-                    src: screenShot20220619At70250PMpngCyEWdgYSm,
-                    fullWidth: 627,
-                    fullHeight: 419,
-                    aspectRatio: undefined
-                  }}
-                />
-              </div>
+              <Timeline
+                data-plasmic-name={"timeline"}
+                data-plasmic-override={overrides.timeline}
+                className={classNames("__wab_instance", sty.timeline)}
+              />
             </div>
           </div>
         </p.Stack>
@@ -198,13 +209,41 @@ function PlasmicYourWallet__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "columns", "h1", "link", "textInput", "textbox", "svg", "img"],
-  columns: ["columns", "h1", "link", "textInput", "textbox", "svg", "img"],
+  root: [
+    "root",
+    "columns",
+    "h1",
+    "link",
+    "textInput",
+    "textbox",
+    "backButton",
+    "nextButton",
+    "svg",
+    "img",
+    "timeline"
+  ],
+
+  columns: [
+    "columns",
+    "h1",
+    "link",
+    "textInput",
+    "textbox",
+    "backButton",
+    "nextButton",
+    "svg",
+    "img",
+    "timeline"
+  ],
+
   h1: ["h1"],
   link: ["link"],
   textInput: ["textInput", "textbox"],
+  backButton: ["backButton"],
+  nextButton: ["nextButton"],
   svg: ["svg"],
-  img: ["img"]
+  img: ["img"],
+  timeline: ["timeline"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -240,8 +279,11 @@ export const PlasmicYourWallet = Object.assign(
     h1: makeNodeComponent("h1"),
     link: makeNodeComponent("link"),
     textInput: makeNodeComponent("textInput"),
+    backButton: makeNodeComponent("backButton"),
+    nextButton: makeNodeComponent("nextButton"),
     svg: makeNodeComponent("svg"),
     img: makeNodeComponent("img"),
+    timeline: makeNodeComponent("timeline"),
     // Metadata about props expected for PlasmicYourWallet
     internalVariantProps: PlasmicYourWallet__VariantProps,
     internalArgProps: PlasmicYourWallet__ArgProps

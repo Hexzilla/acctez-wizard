@@ -186,6 +186,19 @@
           "cssFilePath": "plasmic/acc_tez_wizard/PlasmicSetUpStripe.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "0RHyvgnmPT",
+          "name": "Timeline",
+          "type": "managed",
+          "projectId": "68wGqrWvUbUk9uG76N3xHk",
+          "renderModuleFilePath": "plasmic/acc_tez_wizard/PlasmicTimeline.jsx",
+          "importSpec": {
+            "modulePath": "Timeline.jsx"
+          },
+          "cssFilePath": "plasmic/acc_tez_wizard/PlasmicTimeline.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
