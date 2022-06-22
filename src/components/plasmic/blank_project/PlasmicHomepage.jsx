@@ -16,6 +16,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
+import Button from "../../Button"; // plasmic-import: UCG438gq_ly/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: 68wGqrWvUbUk9uG76N3xHk/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: mBD5GJn-hYl-/css
@@ -24,7 +25,7 @@ import screenShot20220619At70250PMpngCyEWdgYSm from "./images/screenShot20220619
 
 export const PlasmicHomepage__VariantProps = new Array();
 
-export const PlasmicHomepage__ArgProps = new Array();
+export const PlasmicHomepage__ArgProps = new Array("timeline");
 
 export const defaultHomepage__Args = {};
 
@@ -51,71 +52,100 @@ function PlasmicHomepage__RenderFunc(props) {
             sty.root
           )}
         >
-          <div className={classNames(projectcss.all, sty.freeBox__vJ21)}>
-            <div className={classNames(projectcss.all, sty.freeBox__m8OFk)}>
-              <h1
-                data-plasmic-name={"h1"}
-                data-plasmic-override={overrides.h1}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h1,
-                  projectcss.__wab_text,
-                  sty.h1
-                )}
-              >
-                {"Welcome to  AccTez Wizard"}
-              </h1>
+          <div
+            data-plasmic-name={"columns"}
+            data-plasmic-override={overrides.columns}
+            className={classNames(projectcss.all, sty.columns)}
+          >
+            <div className={classNames(projectcss.all, sty.column__qIqrg)}>
+              <div className={classNames(projectcss.all, sty.freeBox__m8OFk)}>
+                <h1
+                  data-plasmic-name={"h1"}
+                  data-plasmic-override={overrides.h1}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h1,
+                    projectcss.__wab_text,
+                    sty.h1
+                  )}
+                >
+                  {"Welcome to  Acctez Wizard"}
+                </h1>
 
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__yVjlB
-                )}
-              >
-                {
-                  "AccTez wizard will guide you step-by-step through the setup p rocess "
-                }
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__yVjlB
+                  )}
+                >
+                  {
+                    "AccTez wizard will guide you step-by-step through the setup process.\n\nOnce you complete these steps, your Acctez solution will be ready to use and the next time you visit this site, it will show the user view. \n\nPlease follow these steps to set up Acctez for your organization. \n"
+                  }
+                </div>
+
+                <Button
+                  data-plasmic-name={"button"}
+                  data-plasmic-override={overrides.button}
+                  className={classNames("__wab_instance", sty.button)}
+                >
+                  {"Next"}
+                </Button>
               </div>
             </div>
 
-            <div className={classNames(projectcss.all, sty.freeBox__r4WLo)}>
-              <WizardSvgrepoComsvg2Icon
-                data-plasmic-name={"svg"}
-                data-plasmic-override={overrides.svg}
-                className={classNames(projectcss.all, sty.svg)}
-                role={"img"}
-              />
+            <div className={classNames(projectcss.all, sty.column__o1Xbh)}>
+              <div className={classNames(projectcss.all, sty.freeBox__r4WLo)}>
+                <WizardSvgrepoComsvg2Icon
+                  data-plasmic-name={"svg"}
+                  data-plasmic-override={overrides.svg}
+                  className={classNames(projectcss.all, sty.svg)}
+                  role={"img"}
+                />
 
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__ggGs3
-                )}
-              >
-                {"AccTez Wizard"}
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ggGs3
+                  )}
+                >
+                  {"AccTez Wizard"}
+                </div>
+
+                {true ? (
+                  <p.PlasmicImg
+                    data-plasmic-name={"img"}
+                    data-plasmic-override={overrides.img}
+                    alt={""}
+                    className={classNames(sty.img)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: screenShot20220619At70250PMpngCyEWdgYSm,
+                      fullWidth: 627,
+                      fullHeight: 419,
+                      aspectRatio: undefined
+                    }}
+                  />
+                ) : null}
+
+                <div
+                  data-plasmic-name={"timeline"}
+                  data-plasmic-override={overrides.timeline}
+                  className={classNames(projectcss.all, sty.timeline)}
+                >
+                  {p.renderPlasmicSlot({
+                    defaultContents: null,
+                    value: args.timeline
+                  })}
+                </div>
               </div>
-
-              <p.PlasmicImg
-                data-plasmic-name={"img"}
-                data-plasmic-override={overrides.img}
-                alt={""}
-                className={classNames(sty.img)}
-                displayHeight={"auto"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: screenShot20220619At70250PMpngCyEWdgYSm,
-                  fullWidth: 627,
-                  fullHeight: 419,
-                  aspectRatio: undefined
-                }}
-              />
             </div>
           </div>
         </p.Stack>
@@ -125,10 +155,13 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "h1", "svg", "img"],
+  root: ["root", "columns", "h1", "button", "svg", "img", "timeline"],
+  columns: ["columns", "h1", "button", "svg", "img", "timeline"],
   h1: ["h1"],
+  button: ["button"],
   svg: ["svg"],
-  img: ["img"]
+  img: ["img"],
+  timeline: ["timeline"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -160,9 +193,12 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    columns: makeNodeComponent("columns"),
     h1: makeNodeComponent("h1"),
+    button: makeNodeComponent("button"),
     svg: makeNodeComponent("svg"),
     img: makeNodeComponent("img"),
+    timeline: makeNodeComponent("timeline"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps

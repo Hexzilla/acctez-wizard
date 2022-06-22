@@ -44,7 +44,7 @@ export const PlasmicTextInput__ArgProps = new Array(
 );
 
 export const defaultTextInput__Args = {
-  placeholder: "tz1......"
+  placeholder: "Input"
 };
 
 function PlasmicTextInput__RenderFunc(props) {

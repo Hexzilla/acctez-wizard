@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mantine/core": "^4.2.10",
+    "@mantine/hooks": "^4.2.10",
+    "@mantine/notifications": "^4.2.10",
     "@plasmicapp/cli": "^0.1.182",
     "@plasmicapp/host": "^1.0.60",
+    "@plasmicapp/loader-react": "^1.0.140",
     "@plasmicapp/react-web": "^0.2.100",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
