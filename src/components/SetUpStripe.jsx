@@ -9,6 +9,7 @@ function SetUpStripe_(props, ref) {
     <PlasmicSetUpStripe
       root={{ ref }}
       {...props}
+      skipButton={{ onClick: () => history.push("/choosePasses") }}
       backButton={{ onClick: () => history.push("/wallet") }}
       nextButton={{ onClick: () => history.push("/choosePasses") }}
     />

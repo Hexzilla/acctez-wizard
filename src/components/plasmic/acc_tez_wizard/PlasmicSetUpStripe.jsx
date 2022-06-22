@@ -74,7 +74,7 @@ function PlasmicSetUpStripe__RenderFunc(props) {
                       sty.h1
                     )}
                   >
-                    {"Choose Your Passes"}
+                    {"Set Up Stripe"}
                   </h1>
 
                   <div
